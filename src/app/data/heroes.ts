@@ -1,4 +1,4 @@
-import Hero from '../lib/hero';
+import { Hero } from '../lib/hero';
 
 export const HEROES: Hero[] = [
     { id: 11, name: 'Mr. Nice' },
@@ -12,5 +12,3 @@ export const HEROES: Hero[] = [
     { id: 19, name: 'Magma' },
     { id: 20, name: 'Tornado' }
 ];
-
-export default HEROES;
